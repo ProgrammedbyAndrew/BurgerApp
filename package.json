@@ -1,25 +1,26 @@
 {
-  "name": "burgerapp",
+  "name": "Eat-Da-Burger",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2"
-  },
-  "devDependencies": {},
+  "description": "A Burger devouring app using the MVC pattern",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProgrammedbyAndrew/BurgerApp.git"
+    "url": "git+https://github.com/maxrjohnson23/Eat-Da-Burger.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ProgrammedbyAndrew/BurgerApp/issues"
+    "url": "https://github.com/maxrjohnson23/Eat-Da-Burger/issues"
   },
-  "homepage": "https://github.com/ProgrammedbyAndrew/BurgerApp#readme"
+  "homepage": "https://github.com/maxrjohnson23/Eat-Da-Burger#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0",
+    "body-parser": "latest"
+  }
 }
