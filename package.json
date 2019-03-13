@@ -1,26 +1,26 @@
 {
-  "name": "Eat-Da-Burger",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "A Burger devouring app using the MVC pattern",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxrjohnson23/Eat-Da-Burger.git"
+    "url": "www.github.com/programmedbyandrew"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxrjohnson23/Eat-Da-Burger/issues"
+    "url": "www.github.com/programmedbyandrew"
   },
-  "homepage": "https://github.com/maxrjohnson23/Eat-Da-Burger#readme",
+  "homepage": "www.marketngrow.com",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.15.0",
-    "body-parser": "latest"
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
   }
 }
