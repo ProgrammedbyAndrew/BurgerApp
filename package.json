@@ -1,27 +1,31 @@
 {
-  "name": "eatdaburger",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "Burger App",
-  "main": "server.js",
+  "description": "Buger eating application with Node.js, Express, Handlebars, and MySQL.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/programmedbyAndrew"
   },
-  "keywords": [],
-  "author": "",
-  "license": "UCF bootcamp",
+  "keywords": [
+    "burgers",
+    "eating",
+    "burgerfi"
+  ],
+  "author": "Andrew",
+  "license": "UCF",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/programmedbyAndrew"
   },
-  "homepage": "",
+  "homepage": "https://github.com/programmedbyAndrew",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
-    "mysql": "^2.16.0"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mysql": "^2.13.0"
   }
 }
